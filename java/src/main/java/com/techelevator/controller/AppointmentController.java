@@ -63,18 +63,8 @@ public class AppointmentController {
         }
     }
 
-//    public Appointment scheduleAppointmentByPatientId(Appointment patientId, int id) {
-////        patientId.setPatientId(id);
-//        try {
-//            return appointmentDao.scheduleAppointmentByPatientId(patientId);
-//        } catch (Exception ex) {
-//            throw new ResponseStatusException(HttpStatus.INTERNAL_SERVER_ERROR);
-//        }
-//    }
 
-
-    //TODO: Get patientAppointments by patientId, date
-    //TODO: Get doctorAppointments by doctorId, Date
+    
 
     @RequestMapping(path = "/appointments/{date}/{doctorId}", method = RequestMethod.GET)
     public List<ScheduleBlock> getAppointmentAvailabilityDate(@PathVariable String date , @PathVariable  int doctorId){
