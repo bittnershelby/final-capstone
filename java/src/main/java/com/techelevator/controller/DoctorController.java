@@ -63,21 +63,4 @@ public class DoctorController {
         return result;
     }
 
-
-
-    /** New Endpoint Stubs **/
-//TODO: Retrieve available slots for a doctor
-    /***
-     * Retrieve available slots for a doctor
-     *
-     * @return ?? Object with timeSlot[] Or just a List<timeSlot>
-     */
-    public Object getDoctorAvailability(){
-
-        return null;
-    }
-
-
-
-
 }
